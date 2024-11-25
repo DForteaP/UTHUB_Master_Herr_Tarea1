@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ToolsPlugin.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\Default.rc2.res"
+/OUT:"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\UnrealEditor-ToolsPlugin.lib"

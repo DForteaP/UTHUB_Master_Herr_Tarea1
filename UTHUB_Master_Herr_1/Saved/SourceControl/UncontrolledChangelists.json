@@ -1,0 +1,12 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/usuario/Desktop/Herramientas/UTHUB_Master_Herr_Tarea1/UTHUB_Master_Herr_1/Plugins/ToolsPlugin/Content/AU_GenericTools.uasset"
+			]
+		}
+	]
+}

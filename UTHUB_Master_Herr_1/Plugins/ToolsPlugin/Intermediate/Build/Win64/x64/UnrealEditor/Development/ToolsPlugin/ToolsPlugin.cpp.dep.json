@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\source\\toolsplugin\\private\\toolsplugin.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\uthub_master_herr_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toolsplugin\\definitions.toolsplugin.h",
+            "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\source\\toolsplugin\\public\\toolsplugin.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

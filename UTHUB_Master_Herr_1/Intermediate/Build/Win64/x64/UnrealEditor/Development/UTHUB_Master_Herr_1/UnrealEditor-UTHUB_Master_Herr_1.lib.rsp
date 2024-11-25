@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UTHUB_Master_Herr_1.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1.init.gen.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1Character.gen.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1GameMode.gen.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1Character.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UTHUB_Master_Herr_1GameMode.cpp.obj"
+"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\Default.rc2.res"
+/OUT:"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UnrealEditor\Development\UTHUB_Master_Herr_1\UnrealEditor-UTHUB_Master_Herr_1.lib"

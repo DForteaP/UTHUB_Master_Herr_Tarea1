@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "UTHUB_Master_Herr_1",
+			"Path": "..\\Source\\UTHUB_Master_Herr_1.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "UTHUB_Master_Herr_1Editor",
+			"Path": "..\\Source\\UTHUB_Master_Herr_1Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
