@@ -7,10 +7,10 @@
         "Includes": [
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uthub_master_herr_1\\definitions.uthub_master_herr_1.h",
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\source\\uthub_master_herr_1\\uthub_master_herr_1gamemode.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
-            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\epicgames\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\epicgames\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\unrealeditor\\inc\\uthub_master_herr_1\\uht\\uthub_master_herr_1gamemode.generated.h"
         ],
         "ImportedModules": [],

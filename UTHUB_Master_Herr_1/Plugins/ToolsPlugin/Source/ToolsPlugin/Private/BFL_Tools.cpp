@@ -1,48 +1,41 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "BFL_Tools.h"
-
-#include "AssetExportTask.h"
 #include "EngineUtils.h"
 #include "Engine/StaticMeshActor.h"
-#include "Exporters/StaticMeshExporterFBX.h"
+#include "Kismet/KismetSystemLibrary.h"
 
 TArray<UStaticMesh*> UBFL_Tools::ListStaticMeshActorsInLevel()
 {
 	TArray<UStaticMesh*> MeshAssets;
 
-#if WITH_EDITOR
-	if (!GEditor)
-	{
-		return MeshAssets;
-	}
-	
-	const FWorldContext& EditorWorldContext = GEditor->GetEditorWorldContext();
-	UWorld* World = EditorWorldContext.World();
+	#if WITH_EDITOR
+		if (!GEditor){return MeshAssets;}
+		
+		const FWorldContext& EditorWorldContext = GEditor->GetEditorWorldContext();
+		const UWorld* World = EditorWorldContext.World();
 
-	if (!World)
-	{
-		return MeshAssets;
-	}
-	
-	for (TActorIterator<AStaticMeshActor> It(World); It; ++It)
-	{
-		AStaticMeshActor* StaticMeshActor = *It;
-
-		if (StaticMeshActor && StaticMeshActor->GetStaticMeshComponent())
+		if (!World){return MeshAssets;}
+		
+		for (TActorIterator<AStaticMeshActor> It(World); It; ++It)
 		{
-			UStaticMesh* StaticMesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh();
-			if (StaticMesh)
+			AStaticMeshActor* StaticMeshActor = *It;
+			if (StaticMeshActor && StaticMeshActor->GetStaticMeshComponent())
 			{
-				MeshAssets.Add(StaticMesh);
+				UStaticMesh* StaticMesh = StaticMeshActor->GetStaticMeshComponent()->GetStaticMesh();
+				if (StaticMesh)
+				{
+					MeshAssets.Add(StaticMesh);
+				}
 			}
 		}
-	}
-#else
-	UE_LOG(LogTemp, Warning, TEXT("Esta función solo se puede usar en el editor."));
-#endif
-
+	#endif
+	
 	return MeshAssets;
 }
+
+FString UBFL_Tools::GetExportAssetDir()
+{
+	return UKismetSystemLibrary::GetProjectContentDirectory() / TEXT("Saved/Rework");
+}
+
+
 

@@ -2842,6 +2842,18 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintGraph.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor-JsonBlueprintUtilities.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -26444,6 +26456,10 @@
 			"Type": "UFS"
 		},
 		{
+			"Path": "$(EngineDir)/Plugins/JsonBlueprintUtilities/JsonBlueprintUtilities.uplugin",
+			"Type": "UFS"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/Marketplace/Developer/RiderLink/RiderLink.uplugin",
 			"Type": "UFS"
 		},
@@ -26797,6 +26813,7 @@
 		"Interchange",
 		"InterchangeEditor",
 		"InterchangeTests",
+		"JsonBlueprintUtilities",
 		"KDevelopSourceCodeAccess",
 		"LauncherChunkInstaller",
 		"LevelSequenceEditor",

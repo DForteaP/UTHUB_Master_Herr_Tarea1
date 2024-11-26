@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\source\\toolsplugin\\private\\bfl_tools.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\uthub_master_herr_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toolsplugin\\definitions.toolsplugin.h",
+            "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\source\\toolsplugin\\public\\bfl_tools.h",
+            "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\toolsplugin\\uht\\bfl_tools.generated.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\engine\\public\\engineutils.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\staticmeshactor.h",
+            "c:\\epicgames\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\staticmeshactor.generated.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\epicgames\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
