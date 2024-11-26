@@ -1,0 +1,8 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ToolsPlugin.cpp.obj": [
+			"ToolsPlugin.cpp.obj"
+		]
+	}
+}

@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\usuario\\Desktop\\Herramientas\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1\\UTHUB_Master_Herr_1.Build.cs",
-		"C:\\Users\\usuario\\Desktop\\Herramientas\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Plugins\\ToolsPlugin\\Source\\ToolsPlugin\\ToolsPlugin.Build.cs",
-		"C:\\Users\\usuario\\Desktop\\Herramientas\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1.Target.cs",
-		"C:\\Users\\usuario\\Desktop\\Herramientas\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1Editor.Target.cs"
+		"E:\\UT-HUB\\Master\\Desarrollo de herramientas\\Practica1\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1\\UTHUB_Master_Herr_1.Build.cs",
+		"E:\\UT-HUB\\Master\\Desarrollo de herramientas\\Practica1\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Plugins\\ToolsPlugin\\Source\\ToolsPlugin\\ToolsPlugin.Build.cs",
+		"E:\\UT-HUB\\Master\\Desarrollo de herramientas\\Practica1\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1.Target.cs",
+		"E:\\UT-HUB\\Master\\Desarrollo de herramientas\\Practica1\\UTHUB_Master_Herr_Tarea1\\UTHUB_Master_Herr_1\\Source\\UTHUB_Master_Herr_1Editor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }

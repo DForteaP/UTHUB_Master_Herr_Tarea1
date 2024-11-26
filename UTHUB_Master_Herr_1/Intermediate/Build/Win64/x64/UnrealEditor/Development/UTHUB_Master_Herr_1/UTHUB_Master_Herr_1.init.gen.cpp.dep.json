@@ -1,11 +1,11 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\unrealeditor\\inc\\uthub_master_herr_1\\uht\\uthub_master_herr_1.init.gen.cpp",
+        "Source": "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\unrealeditor\\inc\\uthub_master_herr_1\\uht\\uthub_master_herr_1.init.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\uthub_master_herr_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\uthub_master_herr_1editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\users\\usuario\\desktop\\herramientas\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uthub_master_herr_1\\definitions.uthub_master_herr_1.h"
+            "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\uthub_master_herr_1\\definitions.uthub_master_herr_1.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

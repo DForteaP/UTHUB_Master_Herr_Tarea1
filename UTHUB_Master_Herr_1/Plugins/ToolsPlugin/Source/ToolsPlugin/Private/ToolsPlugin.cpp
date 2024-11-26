@@ -2,6 +2,9 @@
 
 #include "ToolsPlugin.h"
 
+#include "EngineUtils.h"
+#include "Engine/StaticMeshActor.h"
+
 #define LOCTEXT_NAMESPACE "FToolsPluginModule"
 
 void FToolsPluginModule::StartupModule()
