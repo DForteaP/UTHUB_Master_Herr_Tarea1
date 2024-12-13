@@ -7,6 +7,9 @@
         "Includes": [
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toolsplugin\\definitions.toolsplugin.h",
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\source\\toolsplugin\\public\\bfl_tools.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\assetregistry\\public\\assetregistry\\iassetregistry.h",
+            "c:\\epicgames\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\misc\\assetregistryinterface.h",
+            "c:\\epicgames\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\assetregistry\\uht\\iassetregistry.generated.h",
             "e:\\ut-hub\\master\\desarrollo de herramientas\\practica1\\uthub_master_herr_tarea1\\uthub_master_herr_1\\plugins\\toolsplugin\\intermediate\\build\\win64\\unrealeditor\\inc\\toolsplugin\\uht\\bfl_tools.generated.h"
         ],
         "ImportedModules": [],

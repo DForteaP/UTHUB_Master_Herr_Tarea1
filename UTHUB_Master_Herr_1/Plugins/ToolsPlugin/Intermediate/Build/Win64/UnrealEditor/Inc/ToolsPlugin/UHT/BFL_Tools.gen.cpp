@@ -17,6 +17,52 @@ TOOLSPLUGIN_API UClass* Z_Construct_UClass_UBFL_Tools_NoRegister();
 UPackage* Z_Construct_UPackage__Script_ToolsPlugin();
 // End Cross Module References
 
+// Begin Class UBFL_Tools Function ExportListDependencies
+struct Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics
+{
+	struct BFL_Tools_eventExportListDependencies_Parms
+	{
+		FString LogContent;
+	};
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Utilities" },
+		{ "ModuleRelativePath", "Public/BFL_Tools.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LogContent_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FStrPropertyParams NewProp_LogContent;
+	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FStrPropertyParams Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::NewProp_LogContent = { "LogContent", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(BFL_Tools_eventExportListDependencies_Parms, LogContent), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LogContent_MetaData), NewProp_LogContent_MetaData) };
+const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::PropPointers[] = {
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::NewProp_LogContent,
+};
+static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::PropPointers) < 2048);
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UBFL_Tools, nullptr, "ExportListDependencies", nullptr, nullptr, Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::PropPointers), sizeof(Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::BFL_Tools_eventExportListDependencies_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::Function_MetaDataParams), Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::Function_MetaDataParams) };
+static_assert(sizeof(Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::BFL_Tools_eventExportListDependencies_Parms) < MAX_uint16);
+UFunction* Z_Construct_UFunction_UBFL_Tools_ExportListDependencies()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UBFL_Tools_ExportListDependencies_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UBFL_Tools::execExportListDependencies)
+{
+	P_GET_PROPERTY(FStrProperty,Z_Param_LogContent);
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	UBFL_Tools::ExportListDependencies(Z_Param_LogContent);
+	P_NATIVE_END;
+}
+// End Class UBFL_Tools Function ExportListDependencies
+
 // Begin Class UBFL_Tools Function GetExportAssetDir
 struct Z_Construct_UFunction_UBFL_Tools_GetExportAssetDir_Statics
 {
@@ -58,6 +104,36 @@ DEFINE_FUNCTION(UBFL_Tools::execGetExportAssetDir)
 	P_NATIVE_END;
 }
 // End Class UBFL_Tools Function GetExportAssetDir
+
+// Begin Class UBFL_Tools Function ListDependencies
+struct Z_Construct_UFunction_UBFL_Tools_ListDependencies_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Utilities" },
+		{ "ModuleRelativePath", "Public/BFL_Tools.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UBFL_Tools_ListDependencies_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UBFL_Tools, nullptr, "ListDependencies", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UBFL_Tools_ListDependencies_Statics::Function_MetaDataParams), Z_Construct_UFunction_UBFL_Tools_ListDependencies_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_UBFL_Tools_ListDependencies()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UBFL_Tools_ListDependencies_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(UBFL_Tools::execListDependencies)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	UBFL_Tools::ListDependencies();
+	P_NATIVE_END;
+}
+// End Class UBFL_Tools Function ListDependencies
 
 // Begin Class UBFL_Tools Function ListStaticMeshActorsInLevel
 struct Z_Construct_UFunction_UBFL_Tools_ListStaticMeshActorsInLevel_Statics
@@ -109,7 +185,9 @@ void UBFL_Tools::StaticRegisterNativesUBFL_Tools()
 {
 	UClass* Class = UBFL_Tools::StaticClass();
 	static const FNameNativePtrPair Funcs[] = {
+		{ "ExportListDependencies", &UBFL_Tools::execExportListDependencies },
 		{ "GetExportAssetDir", &UBFL_Tools::execGetExportAssetDir },
+		{ "ListDependencies", &UBFL_Tools::execListDependencies },
 		{ "ListStaticMeshActorsInLevel", &UBFL_Tools::execListStaticMeshActorsInLevel },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -129,7 +207,9 @@ struct Z_Construct_UClass_UBFL_Tools_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
+		{ &Z_Construct_UFunction_UBFL_Tools_ExportListDependencies, "ExportListDependencies" }, // 4055550996
 		{ &Z_Construct_UFunction_UBFL_Tools_GetExportAssetDir, "GetExportAssetDir" }, // 1047390845
+		{ &Z_Construct_UFunction_UBFL_Tools_ListDependencies, "ListDependencies" }, // 1928239400
 		{ &Z_Construct_UFunction_UBFL_Tools_ListStaticMeshActorsInLevel, "ListStaticMeshActorsInLevel" }, // 1679834328
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -179,10 +259,10 @@ UBFL_Tools::~UBFL_Tools() {}
 struct Z_CompiledInDeferFile_FID_UTHUB_Master_Herr_1_Plugins_ToolsPlugin_Source_ToolsPlugin_Public_BFL_Tools_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UBFL_Tools, UBFL_Tools::StaticClass, TEXT("UBFL_Tools"), &Z_Registration_Info_UClass_UBFL_Tools, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBFL_Tools), 1252383238U) },
+		{ Z_Construct_UClass_UBFL_Tools, UBFL_Tools::StaticClass, TEXT("UBFL_Tools"), &Z_Registration_Info_UClass_UBFL_Tools, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UBFL_Tools), 880189116U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UTHUB_Master_Herr_1_Plugins_ToolsPlugin_Source_ToolsPlugin_Public_BFL_Tools_h_475577131(TEXT("/Script/ToolsPlugin"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_UTHUB_Master_Herr_1_Plugins_ToolsPlugin_Source_ToolsPlugin_Public_BFL_Tools_h_3436497060(TEXT("/Script/ToolsPlugin"),
 	Z_CompiledInDeferFile_FID_UTHUB_Master_Herr_1_Plugins_ToolsPlugin_Source_ToolsPlugin_Public_BFL_Tools_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_UTHUB_Master_Herr_1_Plugins_ToolsPlugin_Source_ToolsPlugin_Public_BFL_Tools_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

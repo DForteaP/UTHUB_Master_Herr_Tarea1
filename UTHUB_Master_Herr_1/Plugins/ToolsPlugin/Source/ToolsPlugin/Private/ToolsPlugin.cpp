@@ -2,6 +2,7 @@
 
 #include "ToolsPlugin.h"
 
+#include "BFL_Tools.h"
 #include "EngineUtils.h"
 #include "Engine/StaticMeshActor.h"
 
@@ -10,6 +11,7 @@
 void FToolsPluginModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+	UBFL_Tools::ListDependencies();
 }
 
 void FToolsPluginModule::ShutdownModule()

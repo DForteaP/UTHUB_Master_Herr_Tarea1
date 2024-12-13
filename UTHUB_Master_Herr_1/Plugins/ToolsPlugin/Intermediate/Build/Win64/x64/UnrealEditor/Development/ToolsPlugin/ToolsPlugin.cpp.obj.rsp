@@ -1,11 +1,11 @@
-"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Source\ToolsPlugin\Private\ToolsPlugin.cpp"
-/FI"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\Definitions.ToolsPlugin.h"
-/Yu"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.cpp.obj"
-/sourceDependencies "C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.cpp.dep.json"
-@"C:\Users\usuario\Desktop\Herramientas\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.Shared.rsp"
+"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Source\ToolsPlugin\Private\ToolsPlugin.cpp"
+/FI"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\Definitions.ToolsPlugin.h"
+/Yu"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Intermediate\Build\Win64\x64\UTHUB_Master_Herr_1Editor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.cpp.obj"
+/sourceDependencies "E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.cpp.dep.json"
+@"E:\UT-HUB\Master\Desarrollo de herramientas\Practica1\UTHUB_Master_Herr_Tarea1\UTHUB_Master_Herr_1\Plugins\ToolsPlugin\Intermediate\Build\Win64\x64\UnrealEditor\Development\ToolsPlugin\ToolsPlugin.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

@@ -2,10 +2,10 @@
 	"RemapUnityFiles": 
 	{
 		"Module.ToolsPlugin.cpp.obj": [
-			"ToolsPlugin.cpp.obj",
 			"BFL_Tools.gen.cpp.obj",
 			"ToolsPlugin.init.gen.cpp.obj",
-			"BFL_Tools.cpp.obj"
+			"BFL_Tools.cpp.obj",
+			"ToolsPlugin.cpp.obj"
 		]
 	}
 }
